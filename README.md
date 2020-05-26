@@ -4,3 +4,4 @@ library(ggplot2)
 df_pcs = read.table('C:\\Users\\lizk\\Desktop\\pca41836f\\pca41836f\\temp.dat.PC_data.xls', header = TRUE)
 ggplot(df_pcs,aes(x=PC1,y=PC2,color = group))+ geom_point()+stat_ellipse(level = 0.95, show.legend = F)
 可参考：https://www.plob.org/article/22240.html
+相关性https://www.jianshu.com/p/b76f09aacd9c
